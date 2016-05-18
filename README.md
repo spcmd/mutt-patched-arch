@@ -1,8 +1,6 @@
 # mutt-patched-arch
 Mutt E-mail client with some patches I'm using.
 
-Source and compiled version (for Arch Linux) included.
-
 The package name by default is: `mutt-sidebar-x-gm-labels` (not to be confused with other AUR packages, like _mutt-sidebar_ which doesn't contain the X-GM-LABELS patch.)
 
 #### Patches:
