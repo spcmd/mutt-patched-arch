@@ -12,13 +12,7 @@ The package name by default is: `mutt-sidebar-x-gm-labels` (not to be confused w
 
 #### Installation:
 
-* To install the compiled package, run:
-
-`sudo pacman -U /path/to/mutt-sidebar-x-gm-labels-1.5.23-10-x86_64.pkg.tar.xz`
-
-(by default it's in the **compiled_package** directory)
-
-* If you want to compile the package, or change it's name, or remove a patch from it, etc., edit the **PKGBUILD** first, then run `makepkg` in the same directory (where the PKGBUILD and all the other files are). After it's finished, run: `sudo pacman -U /path/to/your-compiled-mutt.pkg.tar.xz`
+Go to the cloned directory and run `makepkg -si` to compile and install the package.
 
 #### Enable Gmail labels in the e-mail list (index_format):
 
